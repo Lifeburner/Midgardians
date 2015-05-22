@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A6CB28F7-DBAF-4BA9-A18F-C0E2F421364B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Midgardians</RootNamespace>
+    <AssemblyName>Midgardians</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <MonoGameContentBuilderExe>
+    </MonoGameContentBuilderExe>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Creature\Creature.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\AnimatedTexture.cs" />
+    <Compile Include="Utils\Map.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildProgramFiles32)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Images\alchemist 1.png" />
+    <Content Include="Content\Images\alchemist 2.png" />
+    <Content Include="Content\Images\alchemist 3.png" />
+    <Content Include="Content\Images\alchemist 4.png" />
+    <Content Include="Content\Images\alchemist frames v1.png" />
+    <Content Include="Content\Images\alchemist frames.png" />
+    <Content Include="Content\Images\alchemist.png" />
+    <Content Include="Content\Images\arrow tile.png" />
+    <Content Include="Content\Images\arrow.png" />
+    <Content Include="Content\Images\arrows small pile.png" />
+    <Content Include="Content\Images\attack ani 1.png" />
+    <Content Include="Content\Images\attack icon.png" />
+    <Content Include="Content\Images\barsBG.png" />
+    <Content Include="Content\Images\battle axe.png" />
+    <Content Include="Content\Images\bottom edge overlay.png" />
+    <Content Include="Content\Images\Class Select Screen.png" />
+    <Content Include="Content\Images\cuckold.png" />
+    <Content Include="Content\Images\cursor click.png" />
+    <Content Include="Content\Images\cursor.png" />
+    <Content Include="Content\Images\dead tree.png" />
+    <Content Include="Content\Images\dungeon arrow.png" />
+    <Content Include="Content\Images\dungeon overlay.png" />
+    <Content Include="Content\Images\eat icon.png" />
+    <Content Include="Content\Images\femalchemist frames backup.png" />
+    <Content Include="Content\Images\femalchemist frames.png" />
+    <Content Include="Content\Images\femalchemist.png" />
+    <Content Include="Content\Images\forest mists.png" />
+    <Content Include="Content\Images\forest overlay backup.png" />
+    <Content Include="Content\Images\forest overlay pixelated.png" />
+    <Content Include="Content\Images\forest overlay v2.png" />
+    <Content Include="Content\Images\forest overlay.png" />
+    <Content Include="Content\Images\fs_border.png" />
+    <Content Include="Content\Images\game icon.png" />
+    <Content Include="Content\Images\gem of soul trapping.png" />
+    <Content Include="Content\Images\gold med.png" />
+    <Content Include="Content\Images\gold small.png" />
+    <Content Include="Content\Images\gourd.png" />
+    <Content Include="Content\Images\grass w rocks.png" />
+    <Content Include="Content\Images\grass.png" />
+    <Content Include="Content\Images\hide cuirass.png" />
+    <Content Include="Content\Images\honey badger.png" />
+    <Content Include="Content\Images\inventory bg alt.png" />
+    <Content Include="Content\Images\inventory_BG.png" />
+    <Content Include="Content\Images\jotunheim overlay.png" />
+    <Content Include="Content\Images\left edge overlay.png" />
+    <Content Include="Content\Images\left low corner overlay.png" />
+    <Content Include="Content\Images\leister.png" />
+    <Content Include="Content\Images\light radius.png" />
+    <Content Include="Content\Images\log_btn.png" />
+    <Content Include="Content\Images\long bow.png" />
+    <Content Include="Content\Images\look icon.png" />
+    <Content Include="Content\Images\lozla_owl.png" />
+    <Content Include="Content\Images\map button.png" />
+    <Content Include="Content\Images\messageBG.png" />
+    <Content Include="Content\Images\Monsters_trap.png" />
+    <Content Include="Content\Images\new alchemist.png" />
+    <Content Include="Content\Images\new mountain.png" />
+    <Content Include="Content\Images\new tree tall.png" />
+    <Content Include="Content\Images\new tree.png" />
+    <Content Include="Content\Images\pack.png" />
+    <Content Include="Content\Images\pickaxe.png" />
+    <Content Include="Content\Images\potion v2.png" />
+    <Content Include="Content\Images\potion.png" />
+    <Content Include="Content\Images\puddle tile.png" />
+    <Content Include="Content\Images\rabid hound.png" />
+    <Content Include="Content\Images\Ragicn_alchemist.png" />
+    <Content Include="Content\Images\rationbag.png" />
+    <Content Include="Content\Images\raven in the trap.png" />
+    <Content Include="Content\Images\red hind.png" />
+    <Content Include="Content\Images\right edge overlay.png" />
+    <Content Include="Content\Images\right low corner overlay.png" />
+    <Content Include="Content\Images\ring.png" />
+    <Content Include="Content\Images\rock.png" />
+    <Content Include="Content\Images\save button.png" />
+    <Content Include="Content\Images\scroll.png" />
+    <Content Include="Content\Images\sidebar bg.png" />
+    <Content Include="Content\Images\skeleton.png" />
+    <Content Include="Content\Images\slash attack ani.png" />
+    <Content Include="Content\Images\snowscape.png" />
+    <Content Include="Content\Images\snowscape2.png" />
+    <Content Include="Content\Images\snowscape3.png" />
+    <Content Include="Content\Images\stair down.png" />
+    <Content Include="Content\Images\stalagmite.png" />
+    <Content Include="Content\Images\survivalist ani.png" />
+    <Content Include="Content\Images\survivalist f.png" />
+    <Content Include="Content\Images\survivalist.png" />
+    <Content Include="Content\Images\title screen.png" />
+    <Content Include="Content\Images\tombstone.png" />
+    <Content Include="Content\Images\tools icon.png" />
+    <Content Include="Content\Images\top edge overlay.png" />
+    <Content Include="Content\Images\trader frames.png" />
+    <Content Include="Content\Images\trader.png" />
+    <Content Include="Content\Images\Trap_water.png" />
+    <Content Include="Content\Images\tree snake.png" />
+    <Content Include="Content\Images\turkey rat.png" />
+    <Content Include="Content\Images\undiscovered tile overlay.png" />
+    <Content Include="Content\Images\veinheri.png" />
+    <Content Include="Content\Images\viking ani.png" />
+    <Content Include="Content\Images\viking.png" />
+    <Content Include="Content\Images\village floor.png" />
+    <Content Include="Content\Images\village walls.png" />
+    <Content Include="Content\Images\villiform.png" />
+    <Content Include="Content\Images\worn grass and graves.png" />
+    <Content Include="Content\Images\worn grass.png" />
+    <Content Include="Content\Images\yggdrassil highlight.png" />
+    <Content Include="Content\Images\yggdrassil v3.png" />
+    <Content Include="Content\Sound\141980_m2mobi_click_converted %281%29.wav" />
+    <Content Include="Content\Sound\141980_m2mobi_click_converted.wav" />
+    <Content Include="Content\Sound\151235__owlstorm__grassy-footstep-4.wav" />
+    <Content Include="Content\Sound\166509__yoyodaman234__concrete-footstep-1.wav" />
+    <Content Include="Content\Sound\169256__robertvoice__paso-grama-edit.wav" />
+    <Content Include="Content\Sound\21915__halleck__neck-crack-pure.wav" />
+    <Content Include="Content\Sound\32646__carrigsound__step-9.wav" />
+    <Content Include="Content\Sound\35213__abyssmal__slashkut.wav" />
+    <Content Include="Content\Sound\38874__swuing__footstep-grass.wav" />
+    <Content Include="Content\Sound\63532__florian-reinke__click2 %281%29.wav" />
+    <Content Include="Content\Sound\63532__florian-reinke__click2.wav" />
+    <Content Include="Content\Sound\MoM Dungeon.wav" />
+    <Content Include="Content\Sound\MoM Title.wav" />
+    <Content Include="Content\Sound\MoM Wilderness - ver2.wav" />
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
